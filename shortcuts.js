@@ -104,3 +104,73 @@ if('only there were a way to toggle around the parens'){
 // command + k, command + b : toggle file bar
 // command + option + NUMBER : split screen
 // control + shift + NUMBER : move current file to pane
+
+
+
+
+
+
+// Windows Sublime:
+// F11 : toggle fullscreen
+// shift + F11 : toggle distraction free
+
+// ctrl + arrows : move one word at a time
+// ctrl + alt + arrows : move to beginning and end of line.  Need to add below 2 lines to Preferences / Key Bindins(user);
+{ "keys": ["ctrl+alt+left"], "command": "move_to", "args": {"to": "bol", "extend": false} },
+{ "keys": ["ctrl+alt+right"], "command": "move_to", "args": {"to": "eol", "extend": false} }
+// ctrl + a : select all the text
+// ctrl + a + delete : delete all the text
+// fn + delete : delete forward
+
+// command + z : undo
+// command + shift + z : redo
+// command + / : toggle comment for line
+// command + ] : shift indenting right
+// command + [ : shift indenting left
+// command + l : select the whole line
+// command + c (with selection) : copy selection
+// command + x (with selection) : cut selection
+// command + v : paste most recent cut or copy
+// command + shift + v : paste with proper indentation
+
+var outerFunction = function(){
+
+
+
+};
+
+var innerFunction = function(){
+
+};
+
+// control + shift + k : delete the whole line
+// command + x : cut the whole line
+// command + c : copy the whole line
+// command + enter : create new line below
+// command + shift + enter : create new line above
+// command + shift + d : copy current line below
+// command + control + arrows : move entire line up and down
+// command + k, command + u : make selection upper case
+// command + k, command + l : make selection lower case
+// command + ' : select all within quotes
+var quote = "Wouldn't it be nice to replace this quote?";
+// command + shift + ' : select all within quotes, and quotes
+var quote = "Wouldn't it be nice to replace this quote with a number?";
+// control + m : move to beginning/end of parens and braces
+if('only there were a way to toggle around the parens'){
+  var it = 'would be rad';
+}
+
+// command + d : select word(s)
+// command + k while selecting words : don't select word 
+// command + ctrl + g : select all of words
+// option + mouseDrag : column select
+// command + mouseClick : custom multiple cursor
+
+// command + p : open file
+// command + shift + p : set syntax (and many many other things)
+// command + f : find
+// command + shift + f : massive find
+// command + k, command + b : toggle file bar
+// command + option + NUMBER : split screen
+// control + shift + NUMBER : move current file to pane
